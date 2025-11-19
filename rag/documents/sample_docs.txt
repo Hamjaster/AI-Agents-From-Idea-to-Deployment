@@ -1,0 +1,30 @@
+Agentic AI Workshop Reference Notes
+===================================
+
+Overview
+--------
+This workshop guides participants through building multi-agent systems with CrewAI, LangChain, FAISS-based RAG pipelines, Streamlit frontends, and the OpenRouter API. The curriculum follows a plan-first approach where a planning agent drafts the roadmap, a research agent sources evidence, a writer agent creates instructional content, and a reviewer agent ensures quality.
+
+Key Concepts
+------------
+- CrewAI enables orchestration of specialized agents with shared tools, tasks, and sequential or parallel processes.
+- LangChain integrates LLM reasoning with retrieval, web search, and calculation utilities.
+- FAISS provides efficient similarity search over document embeddings, enabling Retrieval-Augmented Generation.
+- OpenRouter offers a unified API for multiple cutting-edge models, including Meta Llama 3.3.
+- Streamlit delivers rapid, interactive frontends for AI workflows.
+
+Deployment Tips
+---------------
+1. Always secure API keys using environment variables or secret managers.
+2. Pre-build vector stores to avoid latency spikes during live sessions.
+3. Log agent outputs for instructor review and iterative improvements.
+4. Encourage students to customize prompts, tasks, and toolkits to explore the impact on agent behavior.
+
+Suggested Agenda
+----------------
+1. Introduction to agentic workflows and CrewAI basics.
+2. Building a knowledge base and FAISS vector store.
+3. Designing specialist agents with prompts, goals, and tools.
+4. Wiring tasks and running the crew end-to-end.
+5. Deploying a Streamlit interface to surface outputs.
+6. Extending the system with new tools, evaluation metrics, or deployment targets.
